@@ -12,8 +12,6 @@ def upload():
         file = request.files['file']
         upload_path = os.path.join(filepath, file.filename)
         file.save(upload_path)
-
-        
     myfiles = os.listdir(filepath)
     return render_template('index.html', comments=myfiles)
 
