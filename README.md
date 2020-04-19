@@ -8,3 +8,12 @@
 
 对上传功能与下载功能进行测试
 
+
+
+# 运行代码
+
+$ cd studying-flask
+
+$ set FLASK_APP = upload_dowload.py
+
+$ flask run
